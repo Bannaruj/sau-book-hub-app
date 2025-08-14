@@ -12,7 +12,7 @@ export default function NavBar() {
           <Link href="/auth/login">เข้าสู่ระบบ/สมัครสมาชิก</Link>
         </div>
       </nav>
-      <hr />
+      <hr className="border-gray-200 border-t-2" />
     </div>
   );
 }

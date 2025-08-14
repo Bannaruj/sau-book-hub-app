@@ -21,7 +21,7 @@ export default function WritingPage() {
         <div className="text-3xl font-bold">ความคิดเห็น</div>
         <div className="text-gray-500">
           <textarea
-            className="w-300 h-100 border-1"
+            className="w-full h-100 border-1"
             name="comment"
             id="comment"
             defaultValue="แสดงความคิดเห็น"

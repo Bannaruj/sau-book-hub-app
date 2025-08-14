@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <>
-      <div className="flex justify-center px-3 ">Recommended</div>
+      <div className="flex justify-center px-3 mt-3">Recommended</div>
       <div className="flex justify-center px-3 m-4">
         <Image
           className="rounded-lg"
@@ -14,9 +14,9 @@ export default function page() {
           height={600}
         />
       </div>
-      <hr />
+      <hr className="border-gray-200 border-t-2" />
 
-      <div className="p-10 font-bold text-2xl py-20 ">
+      <div className="p-70 font-bold text-2xl py-20 ">
         <div className="m-3">หมวดหมู่</div>
         <Link href="/type/novel">
           <button
@@ -59,11 +59,12 @@ export default function page() {
           </button>
         </Link>
       </div>
-      <div className="flex justify-between m-4 p-10">
+
+      <div className="flex flex-wrap justify-center gap-38 m-4 p-10">
         <div>
           <Link href="/writing">
             <Image
-              className="rounded-lg"
+              className="rounded-lg shadow-md w-36 h-36 object-cover mb-2 transition-transform duration-200 hover:scale-105"
               src="/peak.jpg"
               alt="ภาพประกอบ"
               width={150}
@@ -75,7 +76,7 @@ export default function page() {
         <div>
           <Link href="/writing">
             <Image
-              className="rounded-lg"
+              className="rounded-lg shadow-md w-36 h-36 object-cover mb-2 transition-transform duration-200 hover:scale-105"
               src="/harry.jpg"
               alt="ภาพประกอบ"
               width={150}
@@ -88,7 +89,7 @@ export default function page() {
         <div>
           <Link href="/writing">
             <Image
-              className="rounded-lg"
+              className="rounded-lg shadow-md w-36 h-36 object-cover mb-2 transition-transform duration-200 hover:scale-105"
               src="/history.avif"
               alt="ภาพประกอบ"
               width={150}
@@ -101,7 +102,7 @@ export default function page() {
         <div>
           <Link href="/writing">
             <Image
-              className="rounded-lg"
+              className="rounded-lg shadow-md w-36 h-36 object-cover mb-2 transition-transform duration-200 hover:scale-105"
               src="/พรี่ซอง.jpg"
               alt="ภาพประกอบ"
               width={150}
@@ -113,7 +114,7 @@ export default function page() {
         <div>
           <Link href="/writing">
             <Image
-              className="rounded-lg"
+              className="rounded-lg shadow-md w-36 h-36 object-cover mb-2 transition-transform duration-200 hover:scale-105"
               src="/บัคปาค2.jpg"
               alt="ภาพประกอบ"
               width={150}

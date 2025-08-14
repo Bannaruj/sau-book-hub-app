@@ -29,7 +29,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NavBar />
-        <main style={{ marginTop: "20px" }}></main>
         {children}
       </body>
     </html>
