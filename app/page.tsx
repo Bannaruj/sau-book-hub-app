@@ -5,7 +5,7 @@ export default function page() {
   return (
     <>
       <div className="flex justify-center px-3 mt-3">Recommended</div>
-      <div className="flex justify-center px-3 m-4">
+      <div className="flex justify-center px-3 m-4 gap-2">
         <Image
           className="rounded-lg"
           src="/peak.jpg"
@@ -13,7 +13,13 @@ export default function page() {
           width={600}
           height={600}
         />
+        <div className="w-80 border rounded-lg p-4 bg-gray-100 text-gray-700">
+          จากผู้รีวิว : skibidisigma
+          <br />
+          สนุกมากครับ
+        </div>
       </div>
+
       <hr className="border-gray-200 border-t-2" />
 
       <div className="p-70 font-bold text-2xl py-20 ">

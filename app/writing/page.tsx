@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WritingPage() {
   return (
@@ -17,7 +18,7 @@ export default function WritingPage() {
         />
       </div>
       <br />
-      <div className="container mx-auto px-4  shadow-lg">
+      <div className="container mx-auto px-4  shadow-lg mb-4">
         <div className="text-3xl font-bold">ความคิดเห็น</div>
         <div className="text-gray-500">
           <textarea
@@ -35,6 +36,33 @@ export default function WritingPage() {
               ส่งความคิดเห็น
             </button>
           </div>
+        </div>
+      </div>
+      <hr />
+      <div
+        className="container mx-auto px-4 shadow-lg mt-4 pl-6
+      "
+      >
+        <div className="flex justify-between items-start">
+          <div className="flex gap-10">
+            <div>
+              <Link href="/user/userdata">
+                <Image
+                  className="rounded-lg"
+                  src="/user.png"
+                  alt="user"
+                  width={50}
+                  height={50}
+                />
+              </Link>
+              <h1 className="mt-2">พี่ต้อย</h1>
+            </div>
+            <br />
+            <div>หนังสือเล่มนี้ ทำให้ผมอยากเป็นแบบพี่บริโซ่เลยครับ</div>
+          </div>
+        </div>
+        <div className="flex justify-end mt-2">
+          <span style={{ textDecoration: "underline" }}>ตอบกลับ</span>
         </div>
       </div>
     </>
