@@ -1,6 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { IoIosMenu } from "react-icons/io";
+import { FaEye } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
+
 export default function page() {
   return (
     <>
@@ -66,7 +70,7 @@ export default function page() {
         </Link>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-38 m-4 p-10">
+      <div className="flex flex-wrap justify-center gap-6 m-2 p-2">
         <div>
           <Link href="/writing">
             <Image
@@ -76,7 +80,22 @@ export default function page() {
               width={150}
               height={150}
             />
-            สู้เพื่อฝันมาสาวเดอบี้
+            <div>สู้เพื่อฝันมาสาวเดอบี้</div>
+            <br />
+            <div className="flex gap-2 items-center text-gray-600 mt-1">
+              <div className="flex items-center gap-1">
+                <IoIosMenu />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaEye />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaHeart />
+                <span>0</span>
+              </div>
+            </div>
           </Link>
         </div>
         <div>
@@ -88,7 +107,22 @@ export default function page() {
               width={150}
               height={150}
             />
-            แฮรี่พอตเตอร์
+            <div>แฮรี่พอตเตอร์</div>
+            <br />
+            <div className="flex gap-2 items-center text-gray-600 mt-1">
+              <div className="flex items-center gap-1">
+                <IoIosMenu />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaEye />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaHeart />
+                <span>0</span>
+              </div>
+            </div>
           </Link>
         </div>
 
@@ -101,7 +135,22 @@ export default function page() {
               width={150}
               height={150}
             />
-            ประวัติศาสตร์ของอดอฟ
+            <div>ประวัติศาสตร์ฮิตเลอร์</div>
+            <br />
+            <div className="flex gap-2 items-center text-gray-600 mt-1">
+              <div className="flex items-center gap-1">
+                <IoIosMenu />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaEye />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaHeart />
+                <span>0</span>
+              </div>
+            </div>
           </Link>
         </div>
 
@@ -114,7 +163,22 @@ export default function page() {
               width={150}
               height={150}
             />
-            ไอราชามดนั้นคง....
+            <div>ไอราชามดนั้นคง</div>
+            <br />
+            <div className="flex gap-2 items-center text-gray-600 mt-1">
+              <div className="flex items-center gap-1">
+                <IoIosMenu />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaEye />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaHeart />
+                <span>0</span>
+              </div>
+            </div>
           </Link>
         </div>
         <div>
@@ -126,7 +190,49 @@ export default function page() {
               width={150}
               height={150}
             />
-            Lookism
+            <div>Lookism</div>
+            <br />
+            <div className="flex gap-2 items-center text-gray-600 mt-1">
+              <div className="flex items-center gap-1">
+                <IoIosMenu />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaEye />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaHeart />
+                <span>0</span>
+              </div>
+            </div>
+          </Link>
+        </div>
+        <div>
+          <Link href="/writing">
+            <Image
+              className="rounded-lg shadow-md w-36 h-36 object-cover mb-2 transition-transform duration-200 hover:scale-105"
+              src="/youtuber.png"
+              alt="ภาพประกอบ"
+              width={150}
+              height={150}
+            />
+            <div>นักสู้ทูปเบอร์</div>
+            <br />
+            <div className="flex gap-2 items-center text-gray-600 mt-1">
+              <div className="flex items-center gap-1">
+                <IoIosMenu />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaEye />
+                <span>0</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FaHeart />
+                <span>0</span>
+              </div>
+            </div>
           </Link>
         </div>
       </div>
