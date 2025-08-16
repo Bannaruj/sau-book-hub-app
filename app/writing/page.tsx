@@ -19,13 +19,13 @@ export default function WritingPage() {
       </div>
       <br />
       <div className="container mx-auto px-4  shadow-lg mb-4">
-        <div className="text-3xl font-bold">ความคิดเห็น</div>
+        <div className="text-3xl font-bold">แสดงความคิดเห็นหรือคำแนะนำ</div>
         <div className="text-gray-500">
           <textarea
             className="w-full h-100 border-1"
             name="comment"
             id="comment"
-            defaultValue="แสดงความคิดเห็น"
+            defaultValue="แสดงความคิดเห็นหรือคำแนะนำของหนังสือเล่มนี้"
           />
           <br />
           <div className="flex justify-center">

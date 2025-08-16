@@ -18,7 +18,7 @@ export default function NavBar() {
           </Link>
         </div>
         <div className="absolute left-1/2 -translate-x-1/2 font-bold text-black text-4xl">
-          <Link href="/">ELLE56</Link>
+          <Link href="/">ELLE</Link>
         </div>
         <div>
           <Link href="/auth/login">เข้าสู่ระบบ/สมัครสมาชิก</Link>
